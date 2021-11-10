@@ -9,5 +9,9 @@ First of all, we have no affiliation to Microsoft and do not represent the compa
 
 We are an independent community—users, contributors, maintainers—working closely with Microsoft for the benefit of the DSC Community, and the many members who happen to also be working for Microsoft.
 
+#Hello World
+- 1
+- 2
+- 3
 
 ## Test
