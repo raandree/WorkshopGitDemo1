@@ -1,3 +1,3 @@
 # WorkshopGitDemo1
 
-This repo is for demoing basic git features.
+This repo is for demoing basic git features and some more stuff.
