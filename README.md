@@ -1,19 +1,28 @@
-# WorkshopGitDemo1
+# Module Development with Sampler
 
-This repo is for demoing basic git features and some more stuff.
+https://github.com/gaelcolas/Sampler
 
-> Note: Bla
+## How to start a new module pipeline:
+	
+1.    -New-SampleModule -DestinationPath D:\ -ModuleType CompleteSample -ModuleAuthor Me -ModuleName FileSizeReporter -ModuleDescription 'Some reporting stuff' -ModuleVersion 0.1 -LicenseType MIT
+1.	Cleanup the build.yml file until all errors are gone.
 
-## Welcome to the DSC Community
-Welcome to the DSC Community portal where we share what’s happening in the DSC community, and how we are organizing ourselves.
+With Sampler you have:
+- Build Pipeline
+- Automated dependency resolution
+- Unit and Integration Testing
+  - Code Coverage
+- Linting (enforces coding guidelines)
+- Changelog Management
+- Documentation is enforced
+- Automated version management (GitVersion)
 
-First of all, we have no affiliation to Microsoft and do not represent the company in any way, shape or form. Any opinions expressed by the community are our own.
+# Desired State Configuration
 
-We are an independent community—users, contributors, maintainers—working closely with Microsoft for the benefit of the DSC Community, and the many members who happen to also be working for Microsoft.
+Basic sample in the file [SimpleConfig.ps1](./DSC/SimpleConfig.ps1).
 
-#Hello World
-- 1
-- 2
-- 3
+DSC as it is doesn't scale and needs some tooling around it. Furthermore DSC makes most sense when integrated in DevOps processes as described in the whitepaper [The Release Pipeline Model](https://docs.microsoft.com/en-us/powershell/scripting/dsc/further-reading/whitepapers).
 
-## Test
+The principles and patters described in the whitepaper come to life in the [DscWorkshop](https://github.com/dsccommunity/dscworkshop). This template comes with some [exercises](https://github.com/dsccommunity/DscWorkshop/tree/main/Exercises) that should help a lot to get into the material in a structured way. In case things do not work as expected, please open a issue on GitHub and let us know.
+
+
