@@ -4,8 +4,12 @@ https://github.com/gaelcolas/Sampler
 
 ## How to start a new module pipeline:
 	
-1.    -New-SampleModule -DestinationPath D:\ -ModuleType CompleteSample -ModuleAuthor Me -ModuleName FileSizeReporter -ModuleDescription 'Some reporting stuff' -ModuleVersion 0.1 -LicenseType MIT
-1.	Cleanup the build.yml file until all errors are gone.
+- Create a new structure with the command
+``` powershell 
+New-SampleModule -DestinationPath D:\ -ModuleType CompleteSample -ModuleAuthor Me -ModuleName FileSizeReporter -ModuleDescription 'Some reporting stuff' -ModuleVersion 0.1 -LicenseType MIT
+```
+- Use the build script to start the build.
+- Cleanup the ```build.yml``` file until all errors are gone.
 
 With Sampler you have:
 - Build Pipeline
