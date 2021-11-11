@@ -10,9 +10,13 @@
         <TabControl HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="772">
             <TabItem Header="TabItem">
                 <Grid Background="#FFE5E5E5">
-                    <TextBox x:Name="txtDirectory" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Please provide directory name" VerticalAlignment="Top" Width="293"/>
-                    <Button x:Name="btnGo" Content="Go" HorizontalAlignment="Left" Margin="308,13,0,0" VerticalAlignment="Top" Width="75"/>
-                    <ListBox x:Name="lstFiles" HorizontalAlignment="Left" Height="323" Margin="10,38,0,0" VerticalAlignment="Top" Width="373"/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40*"/>
+                        <ColumnDefinition Width="343*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="txtDirectory" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Please provide directory name" VerticalAlignment="Top" Width="293" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnGo" Content="Go" HorizontalAlignment="Left" Margin="228.448,13,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
+                    <ListBox x:Name="lstFiles" HorizontalAlignment="Left" Height="323" Margin="10,38,0,0" VerticalAlignment="Top" Width="373" Grid.ColumnSpan="2"/>
                 </Grid>
             </TabItem>
             <TabItem Header="TabItem">
