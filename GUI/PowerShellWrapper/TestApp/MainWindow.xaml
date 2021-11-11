@@ -1,0 +1,59 @@
+﻿<Window x:Class="TestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="477" Width="1080.978" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <ListBox x:Name="lstOutput" HorizontalAlignment="Left" Height="381" Margin="487,10,0,0" VerticalAlignment="Top" Width="576">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding Type}" Grid.Column="0"  />
+                        <TextBlock Text="{Binding Data}" Grid.Column="1" Foreground="{Binding Color}" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+
+        </ListBox>
+        <ProgressBar x:Name="pgbStatus" HorizontalAlignment="Left" Height="20" Margin="10,396,0,0" VerticalAlignment="Top" Width="392" LargeChange="0" Maximum="{Binding Text, ElementName=txtParallelNumberOfIterations}" />
+        <Button x:Name="btnClearListBox" Content="Clear ListBox" HorizontalAlignment="Left" Margin="487,396,0,0" VerticalAlignment="Top" Width="75" Click="btnClearListBox_Click"/>
+        <Button x:Name="btnCancal" Content="Canel" HorizontalAlignment="Left" Margin="407,396,0,0" VerticalAlignment="Top" Width="75" Click="btnCancal_Click" IsCancel="True" IsEnabled="False"/>
+        <TabControl x:Name="tabMain" HorizontalAlignment="Left" Height="381" Margin="10,10,0,0" VerticalAlignment="Top" Width="472">
+            <TabItem x:Name="tabInvokeScriptParallel" Header="Invoke Script in parallel">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="txtParallelCmd" HorizontalAlignment="Left" Height="308" Margin="10,10,0,0" TextWrapping="Wrap" Text="$DebugPreference = 2; $VerbosePreference = 2&#xA;Write-Warning &quot;Warning $_&quot;&#xA;Write-Verbose &quot;Verbose $_&quot;&#xA;Write-Debug &quot;Debug $_&quot;&#xA;Write-Error &quot;Error $_&quot;&#xA;Write-Progress -Id 1 -Activity SomeProgress -Status SomeProgressDescription&#xA;$_&#xA;&#xA;Start-Sleep -Milliseconds 250&#x9;" VerticalAlignment="Top" Width="446"/>
+                    <Button x:Name="btnParallelStartScript" Content="Start Script" HorizontalAlignment="Left" Margin="10,320,0,0" VerticalAlignment="Top" Width="105" Height="23" Click="btnParallelStartScript_Click"/>
+                    <TextBox x:Name="txtParallelNumberOfIterations" HorizontalAlignment="Left" Height="23" Margin="241,320,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="57"/>
+                    <Label x:Name="lblParallelNumberOfIterations" Content="Number of Iterations" HorizontalAlignment="Left" Margin="120,320,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Invoke Script File ">
+                <Grid Background="#FFE5E5E5">
+                    <Button x:Name="btnInvokeScriptFile" Content="Invoke Script File" Height="100" Width="75" Margin="10,10,381,243" Click="btnInvokeScriptFile_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabPreinitializedItems" Header="Pre-initialized Items">
+                <Grid Background="#FFE5E5E5">
+                    <ComboBox x:Name="cmbDirectories" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="250" SelectedIndex="0"/>
+                    <Label x:Name="lblDirectories" Content="Directories read while loading form" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top" Width="250"/>
+                    <Label x:Name="lblCalendar" Content="Calendar on the date retrieved by PowerShell (Now + 3 Months)" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top"/>
+                    <Calendar x:Name="calCalendar" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabInvokeScript" Header="Invoke Script" HorizontalAlignment="Left" Width="84">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="txtSerialCmd" HorizontalAlignment="Left" Height="308" Margin="10,10,0,0" TextWrapping="Wrap" Text="$DebugPreference = 2; $VerbosePreference = 2&#xA;Write-Warning &quot;Warning $_&quot;&#xA;Write-Verbose &quot;Verbose $_&quot;&#xA;Write-Debug &quot;Debug $_&quot;&#xA;Write-Error &quot;Error $_&quot;&#xA;Write-Progress -Id 1 -Activity SomeProgress -Status SomeProgressDescription&#xA;$_&#xA;&#xA;Start-Sleep -Milliseconds 250&#x9;" VerticalAlignment="Top" Width="446"/>
+                    <Button x:Name="btnSerialStartScript" Content="Start Script" HorizontalAlignment="Left" Margin="10,320,0,0" VerticalAlignment="Top" Width="105" Height="23" Click="btnSerialStartScript_Click"/>
+                    <TextBox x:Name="txtSerialNumberOfIterations" HorizontalAlignment="Left" Height="23" Margin="241,320,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="57"/>
+                    <Label x:Name="lblSeriallNumberOfIterations" Content="Number of Iterations" HorizontalAlignment="Left" Margin="120,320,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            
+
+        </TabControl>
+
+    </Grid>
+</Window>

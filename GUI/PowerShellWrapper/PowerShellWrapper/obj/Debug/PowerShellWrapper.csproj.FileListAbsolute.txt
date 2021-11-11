@@ -1,0 +1,16 @@
+D:\Aldi\PowerShellWrapper\PowerShellWrapper\bin\Debug\PowerShellWrapper.dll
+D:\Aldi\PowerShellWrapper\PowerShellWrapper\bin\Debug\PowerShellWrapper.pdb
+D:\Aldi\PowerShellWrapper\PowerShellWrapper\obj\Debug\PowerShellWrapper.csprojResolveAssemblyReference.cache
+D:\Aldi\PowerShellWrapper\PowerShellWrapper\obj\Debug\PowerShellWrapper.dll
+D:\Aldi\PowerShellWrapper\PowerShellWrapper\obj\Debug\PowerShellWrapper.pdb
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\PowerShellWrapper\bin\Debug\PowerShellWrapper.dll
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\PowerShellWrapper\bin\Debug\PowerShellWrapper.pdb
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\PowerShellWrapper\obj\Debug\PowerShellWrapper.csprojResolveAssemblyReference.cache
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\PowerShellWrapper\obj\Debug\PowerShellWrapper.dll
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\PowerShellWrapper\obj\Debug\PowerShellWrapper.pdb
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\PowerShellWrapper\bin\Debug\PowerShellWrapper.dll
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\PowerShellWrapper\bin\Debug\PowerShellWrapper.pdb
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\PowerShellWrapper\bin\Debug\System.Management.Automation.dll
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\PowerShellWrapper\obj\Debug\PowerShellWrapper.csprojResolveAssemblyReference.cache
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\PowerShellWrapper\obj\Debug\PowerShellWrapper.dll
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\PowerShellWrapper\obj\Debug\PowerShellWrapper.pdb

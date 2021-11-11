@@ -1,3 +1,4 @@
 # Ensure any exe files are treated as binary
 *.pptx binary
 *.docx binary
+*.exe  binary

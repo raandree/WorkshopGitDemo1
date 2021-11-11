@@ -1,0 +1,49 @@
+D:\Aldi\PowerShellWrapper\TestApp\bin\Debug\TestApp.exe.config
+D:\Aldi\PowerShellWrapper\TestApp\bin\Debug\TestApp.exe
+D:\Aldi\PowerShellWrapper\TestApp\bin\Debug\TestApp.pdb
+D:\Aldi\PowerShellWrapper\TestApp\bin\Debug\PowerShellWrapper.dll
+D:\Aldi\PowerShellWrapper\TestApp\bin\Debug\PowerShellWrapper.pdb
+D:\Aldi\PowerShellWrapper\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+D:\Aldi\PowerShellWrapper\TestApp\obj\Debug\MainWindow.baml
+D:\Aldi\PowerShellWrapper\TestApp\obj\Debug\MainWindow.g.cs
+D:\Aldi\PowerShellWrapper\TestApp\obj\Debug\App.g.cs
+D:\Aldi\PowerShellWrapper\TestApp\obj\Debug\TestApp_MarkupCompile.cache
+D:\Aldi\PowerShellWrapper\TestApp\obj\Debug\TestApp.g.resources
+D:\Aldi\PowerShellWrapper\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+D:\Aldi\PowerShellWrapper\TestApp\obj\Debug\TestApp.csproj.GenerateResource.Cache
+D:\Aldi\PowerShellWrapper\TestApp\obj\Debug\TestApp.exe
+D:\Aldi\PowerShellWrapper\TestApp\obj\Debug\TestApp.pdb
+D:\Share\PowerShellWrapper\TestApp\bin\Debug\TestApp.exe.config
+D:\Share\PowerShellWrapper\TestApp\obj\Debug\TestApp.exe
+D:\Share\PowerShellWrapper\TestApp\obj\Debug\TestApp.pdb
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.exe
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.pdb
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\bin\Debug\TestApp.exe
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\bin\Debug\TestApp.pdb
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\bin\Debug\PowerShellWrapper.dll
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\bin\Debug\PowerShellWrapper.pdb
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\MainWindow.baml
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\MainWindow.g.cs
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\App.g.cs
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp_MarkupCompile.cache
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.g.resources
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundametals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.csproj.GenerateResource.Cache
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\bin\Debug\TestApp.exe
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\bin\Debug\TestApp.pdb
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\bin\Debug\PowerShellWrapper.dll
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\bin\Debug\System.Management.Automation.dll
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\bin\Debug\PowerShellWrapper.pdb
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\MainWindow.baml
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\MainWindow.g.cs
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\App.g.cs
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp_MarkupCompile.cache
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.g.resources
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.csproj.GenerateResource.Cache
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.exe
+C:\Users\randr\Dropbox\Microsoft Workshops\PowerShell Fundamentals V5\Demos\PowerShellWrapper\TestApp\obj\Debug\TestApp.pdb

@@ -2,6 +2,8 @@
 
 This repo is for demoing basic git features and some more stuff.
 
+> Note: Bla
+
 ## Welcome to the DSC Community
 Welcome to the DSC Community portal where we share what’s happening in the DSC community, and how we are organizing ourselves.
 
